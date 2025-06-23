@@ -20,4 +20,4 @@ def encode_image(image_path, message, output_path):
     encoded.save(output_path)
     print("✅ Encoding complete. Image saved as", output_path)
 
-encode_image("original_image.png", "This is a secret message", "encoded_image.png")
+encode_image("original_image.png", "Hello! Welcome to Edunet Foundation", "encoded_image.png")
