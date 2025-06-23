@@ -6,7 +6,6 @@ def encode_image(image_path, message, output_path):
     width, height = img.size
     index = 0
 
-    # Add a delimiter to mark end of message
     message += "#####"
 
     for row in range(height):

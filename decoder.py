@@ -9,7 +9,7 @@ def decode_image(image_path):
         for col in range(width):
             r, g, b = img.getpixel((col, row))
             if chr(b) == "#" and message[-4:] == "####":
-                return message[:-4]  # remove ending delimiter
+                return message[:-4]
             message += chr(b)
     return message
 
